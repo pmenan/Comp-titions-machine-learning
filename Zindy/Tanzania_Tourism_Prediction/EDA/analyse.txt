@@ -1,0 +1,25 @@
+1/ le nombre de colonne avec valeurs manquantes de train est égale au nombre de colonne avec valeur manquantes de test 
+   vect des colonne : col_with_missing_values
+
+2/ Pourcentage de valeurs manquantes
+	train : 
+	-> travel_with  	: 23.164899
+	-> total_female 	: 0.062461
+    -> total_male   	: 0.124922
+	-> most_impressing  : 6.508630
+	
+	test : 
+	-> travel_with  	: 20.424735
+	-> total_female 	: 0.062461
+    -> total_male   	: 0.124922
+	-> most_impressing  : 6.933167
+	
+3/ types des variables 
+	object  : 18 variables (17 sans la variable ID)
+    float64 : 5 variables
+	vecteur colonne catégorielle --> cat_columns
+	vecteur colonne num --> num_columns
+
+4/ colonne pas importantes pour notre analyse 
+	ID --> à supprimer dans train et à conserver des test pour les prédictions
+
